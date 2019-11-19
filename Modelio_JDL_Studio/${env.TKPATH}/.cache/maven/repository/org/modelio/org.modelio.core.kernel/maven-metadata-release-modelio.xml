@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.modelio</groupId>
+  <artifactId>org.modelio.core.kernel</artifactId>
+  <versioning>
+    <latest>4.0.0.201909051454</latest>
+    <release>4.0.0.201909051454</release>
+    <versions>
+      <version>4.0.0.201909051454</version>
+      <version>4.0.0</version>
+    </versions>
+    <lastUpdated>20191023122703</lastUpdated>
+  </versioning>
+</metadata>

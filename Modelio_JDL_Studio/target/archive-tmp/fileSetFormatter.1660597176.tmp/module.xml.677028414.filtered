@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Module id="Modelio_JDL_Studio" class="org.modelio.modelio_jdl_studio.impl.Modelio_JDL_StudioModule" binaryversion="4.0.0" version="1.0.00" schema-level="2" uid="0703ceb1-5d4d-422a-b8c4-80a8c9aead9b" author="" image="" url="">
+    <ClassPath>
+        <PathEntry path="lib/modelio_jdl_studio-1.0.00.jar"/>
+        <PathEntry path="lib/modelio_jdl_studio-doc-1.0.00.jar"/>
+    </ClassPath>
+    <Profiles>
+        <Profile uid="6677726f-404c-43c7-a639-cd40d718925b" id="JDL">
+            <Stereotype name="Entity" metaclass="Standard.Class" owner-stereotype="" is-hidden="false" label="%stereotype.Entity.label" uid="7a4999c5-9dce-4679-ba16-202d7ed3a552" is-abstract="false">
+                <Icon path="res/icon/gui/class-color-24*24.png"/>
+                <Image path="res/icon/gui/class-color-64*64.IMAGE.png"/>
+                <TagTypes>
+                    <TagType name="skipClient" uid="50ae2e79-471c-430f-afb9-aa835c1bd45a" label="%tagtype.skipClient.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="skipServer" uid="11c39ad8-d38a-42db-a7b9-7e156793e9fc" label="%tagtype.skipServer.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="noFluentMethod" uid="556e414c-7d70-44e1-94b9-8296c285c252" label="%tagtype.noFluentMethod.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="filter" uid="cfc6d515-306e-4262-905c-b18f052225f6" label="%tagtype.filter.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="readOnly" uid="c1f787b1-9d58-4875-8a9f-35f1958d7791" label="%tagtype.readOnly.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="dto" uid="8c964ceb-084b-4206-ba00-2300aef08bc7" label="%tagtype.dto.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="service" uid="c5907fb8-0940-467a-841c-635ba6fbf188" label="%tagtype.service.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="paginate" uid="9c6b6303-d8a5-4d88-9d92-358b7daf21ee" label="%tagtype.paginate.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="search" uid="3cfc4c92-c1b5-4895-8079-0490d3783a39" label="%tagtype.search.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="microservice" uid="070f6515-9224-4fde-97a2-681343791202" label="%tagtype.microservice.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="angularSuffix" uid="85a14cc3-38ea-423b-834f-e8c5d95ce364" label="%tagtype.angularSuffix.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="clientRootFolder" uid="092c52d1-1fe8-469d-b24d-f4ae1b9a1a57" label="%tagtype.clientRootFolder.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="JDLModel" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.JDLModel.label" uid="e276a6e5-720b-4e18-a360-b603a5176b7f" is-abstract="false">
+                <Icon path="res/icon/gui/jdl-model-24*24.png"/>
+                <Image path="res/icon/gui/jdl-model-64*64.IMAGE.png"/>
+            </Stereotype>
+            <Stereotype name="Field" metaclass="Standard.Attribute" owner-stereotype="" is-hidden="false" label="%stereotype.Field.label" uid="31faedec-f3cd-4cf2-b8b4-3413e0dde642" is-abstract="false">
+                <Icon path="res/icon/gui/success-24*24.png"/>
+                <Image path="res/icon/gui/success-64*64.IMAGE.png"/>
+                <TagTypes>
+                    <TagType name="required" uid="7569340b-8779-4d59-a716-4a38bdcb8049" label="%tagtype.required.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="minlength" uid="ff72f937-430e-4f86-964b-2c2289fa91b1" label="%tagtype.minlength.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="maxlength" uid="66ba2181-8c6b-4fb1-a2a3-89328b674bc9" label="%tagtype.maxlength.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="unique" uid="1ba446e2-ff49-4250-973c-db24d5e68318" label="%tagtype.unique.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="pattern" uid="db7209e3-5e28-4bf7-b573-e9aed67a2c72" label="%tagtype.pattern.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="min" uid="2e9824c0-ee59-4899-b6a3-7e8f16d5ba4c" label="%tagtype.min.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="max" uid="dc72690e-1309-41bb-bed5-8be9ced70cbc" label="%tagtype.max.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="minbytes" uid="932d22e6-1b3a-43b3-ba53-1497800bcc13" label="%tagtype.minbytes.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="maxbytes" uid="c18641f4-eb11-49a3-9b4d-8e1cdbcd68af" label="%tagtype.maxbytes.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="JDLEntityDiagram" metaclass="Standard.ClassDiagram" owner-stereotype="" is-hidden="false" label="%stereotype.JDLEntityDiagram.label" uid="a9451289-57ab-4996-94fd-b3dfd7a68a75" is-abstract="false">
+                <Icon path="res/icon/gui/diagram-24*24.png"/>
+                <Image path="res/icon/gui/diagram-64*64.IMAGE.png"/>
+            </Stereotype>
+            <MetaclassReference uid="05a8bf7f-f8a5-464d-887c-df363e1f002f" metaclass="Infrastructure.ModelElement">
+                <NoteTypes>
+                    <NoteType name="JavaDoc" label="%notetype.JavaDoc.label" is-hidden="false" uid="ff917e76-4949-48d8-9d20-97480f0359c2" mime-type="text/plain"/>
+                </NoteTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="47cad05b-1e7a-49d3-8b5e-bf3c0ea0256a" metaclass="Standard.AssociationEnd">
+                <TagTypes>
+                    <TagType name="isSource" uid="1c10859d-9adc-4c45-bf5e-784b0fa88b6c" label="%tagtype.isSource.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+    </Profiles>
+    <Gui>
+        <Commands>
+            <Command id="Generate_JDL_File" label="%command.Generate_JDL_File.label" tooltip="%command.Generate_JDL_File.tooltip" image="res/icon/gui/generate-jdl-24*24.png" modify-model="false">
+                <Scope metaclass="Standard.Package" stereotype="Modelio_JDL_Studio#JDLModel"/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.commands.JDLGenerator">
+                    <HParameter name="name" value=""/>
+                </Handler>
+            </Command>
+            <Command id="JDL_Model" label="%command.JDL_Model.label" tooltip="%command.JDL_Model.tooltip" image="res/icon/gui/jdl-model-24*24.png" modify-model="false">
+                <Scope metaclass="Standard.Package" stereotype=""/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.commands.JDLModelCommand">
+                    <HParameter name="name" value=""/>
+                    <HParameter name="pattern_path" value="res/generated/patterns/JDLModel.umlt"/>
+                    <HParameter name="pattern_name" value="JDLModel"/>
+                </Handler>
+            </Command>
+            <Command id="Entity" label="%command.Entity.label" tooltip="%command.Entity.tooltip" image="res/icon/gui/class-color-24*24.png" modify-model="false">
+                <Scope metaclass="Standard.Package" stereotype="Modelio_JDL_Studio#JDLModel"/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="Modelio_JDL_Studio#Entity"/>
+                    <HParameter name="metaclass" value="Standard.Class"/>
+                    <HParameter name="name" value="Entity"/>
+                    <HParameter name="name" value="Entity"/>
+                </Handler>
+            </Command>
+            <Command id="Field" label="%command.Field.label" tooltip="%command.Field.tooltip" image="res/icon/gui/success-24*24.png" modify-model="false">
+                <Scope metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="Modelio_JDL_Studio#Field"/>
+                    <HParameter name="metaclass" value="Standard.Attribute"/>
+                    <HParameter name="name" value="field"/>
+                </Handler>
+            </Command>
+            <Command id="Enumeration" label="%command.Enumeration.label" tooltip="%command.Enumeration.tooltip" image="res/icon/gui/standard.enumeration.png" modify-model="false">
+                <Scope metaclass="Standard.Package" stereotype="Modelio_JDL_Studio#JDLModel"/>
+                <Handler class="ElementCreate">
+                    <HParameter name="metaclass" value="Standard.Enumeration"/>
+                    <HParameter name="name" value="Enumeration"/>
+                </Handler>
+            </Command>
+            <Command id="Enumeration_Value" label="%command.Enumeration_Value.label" tooltip="%command.Enumeration_Value.tooltip" image="res/icon/gui/standard.enumerationliteral.png" modify-model="false">
+                <Scope metaclass="Standard.Enumeration" stereotype=""/>
+                <Handler class="ElementCreate">
+                    <HParameter name="metaclass" value="Standard.EnumerationLiteral"/>
+                    <HParameter name="name" value="EnumerationValue"/>
+                </Handler>
+            </Command>
+        </Commands>
+        <Tools>
+            <Tool id="Entity" label="%tool.Entity.label" tooltip="%tool.Entity.tooltip" image="res/icon/gui/class-color-24*24.png">
+                <Scope-source metaclass="Standard.Package" stereotype="Modelio_JDL_Studio#JDLModel"/>
+                <Handler class="Box">
+                    <HParameter name="stereotype" value="Modelio_JDL_Studio#Entity"/>
+                    <HParameter name="metaclass" value="Standard.Class"/>
+                    <HParameter name="name" value="Entity"/>
+                </Handler>
+            </Tool>
+            <Tool id="Field" label="%tool.Field.label" tooltip="%tool.Field.tooltip" image="res/icon/gui/success-24*24.png">
+                <Scope-source metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.tools.FieldDiagramCommand">
+                    <HParameter name="stereotype" value="Modelio_JDL_Studio#Field"/>
+                    <HParameter name="metaclass" value="Standard.Attribute"/>
+                    <HParameter name="name" value="field"/>
+                </Handler>
+            </Tool>
+            <Tool id="JavaDoc" label="%tool.JavaDoc.label" tooltip="%tool.JavaDoc.tooltip" image="res/icon/gui/javadoc.png">
+                <Scope-source metaclass="Standard.Attribute" stereotype="Modelio_JDL_Studio#Field"/>
+                <Scope-source metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.tools.JavaDocDiagramTool">
+                    <HParameter name="metaclass" value="Infrastructure.Note"/>
+                    <HParameter name="name" value="JavaDoc"/>
+                </Handler>
+            </Tool>
+            <Tool id="DescriptionNote" label="%tool.DescriptionNote.label" tooltip="%tool.DescriptionNote.tooltip" image="res/icon/gui/note-24*24.png">
+                <Scope-source metaclass="Standard.Attribute" stereotype="Modelio_JDL_Studio#Field"/>
+                <Scope-source metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.tools.DescriptionDiagramTool">
+                    <HParameter name="metaclass" value="Infrastructure.Note"/>
+                    <HParameter name="name" value=""/>
+                </Handler>
+            </Tool>
+            <Tool id="JDLAssociation" label="%tool.JDLAssociation.label" tooltip="%tool.JDLAssociation.tooltip" image="res/icon/gui/relationship-24*24.png">
+                <Scope-source metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Scope-target metaclass="Standard.Class" stereotype="Modelio_JDL_Studio#Entity"/>
+                <Handler class="org.modelio.modelio_jdl_studio.handlers.tools.JDLAssociationDiagramTool">
+                    <HParameter name="metaclass" value="Standard.AssociationEnd"/>
+                    <HParameter name="name" value=""/>
+                </Handler>
+            </Tool>
+        </Tools>
+        <ContextualMenu>
+            <CommandRef refid="Entity" group="%group.Elements.label" group-image="res/icon/gui/folder-24*24.png"/>
+            <CommandRef refid="Field" group="%group.Elements.label" group-image="res/icon/gui/folder-24*24.png"/>
+            <CommandRef refid="Enumeration" group="%group.Elements.label" group-image="res/icon/gui/folder-24*24.png"/>
+            <CommandRef refid="Enumeration_Value" group="%group.Elements.label" group-image="res/icon/gui/folder-24*24.png"/>
+            <CommandRef refid="JDL_Model" group="" group-image=""/>
+            <CommandRef refid="Generate_JDL_File" group="" group-image=""/>
+        </ContextualMenu>
+        <Diagrams>
+            <DiagramType base-diagram="Standard.ClassDiagram" stereotype="Modelio_JDL_Studio#JDLEntityDiagram">
+                <Palette keepBasePalette="false">
+                    <ToolRef refid="Entity" group="%group.JDL_Elements.label"/>
+                    <ToolRef refid="Field" group="%group.JDL_Elements.label"/>
+                    <ToolRef refid="CREATE_ENUMERATION" group="%group.JDL_Elements.label"/>
+                    <ToolRef refid="CREATE_ENUMERATIONLITERAL" group="%group.JDL_Elements.label"/>
+                    <ToolRef refid="JDLAssociation" group="%group.JDL_Elements.label"/>
+                    <ToolRef refid="JavaDoc" group="%group.Documentation.label"/>
+                    <ToolRef refid="DescriptionNote" group="%group.Documentation.label"/>
+                </Palette>
+                <Handler class="StandardCustomizer">
+                    <HParameter name="stereotype" value="Modelio_JDL_Studio#JDLEntityDiagram"/>
+                    <HParameter name="metaclass" value="Standard.ClassDiagram"/>
+                </Handler>
+            </DiagramType>
+        </Diagrams>
+        <Views>
+            <PropertyPage id="JDL" class="org.modelio.modelio_jdl_studio.handlers.propertypage.JDLPropertyPage" label="%propertypage.JDL.label" image="">
+                <CommandRef refid="Generate_JDL_File" group="" group-image=""/>
+            </PropertyPage>
+        </Views>
+    </Gui>
+    <Resources>
+        <DocFiles>
+            <PathEntry path="lib/modelio_jdl_studio-doc-1.0.00.jar"/>
+        </DocFiles>
+    </Resources>
+</Module>

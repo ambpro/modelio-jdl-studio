@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.modelio</groupId>
+  <artifactId>org.modelio.core.utils</artifactId>
+  <versioning>
+    <latest>3.8.1.201903111536</latest>
+    <release>3.8.1.201903111536</release>
+    <versions>
+      <version>1.0.0.201306211739</version>
+      <version>1.0.0.201311140800</version>
+      <version>1.0.0.201402210031</version>
+      <version>1.0.0.201405191225</version>
+      <version>3.2.1</version>
+      <version>3.3.0</version>
+      <version>3.4.0.13546-1481</version>
+      <version>3.4.1.16085-1715</version>
+      <version>3.5.0.201604110748</version>
+      <version>3.5.0.201605061226</version>
+      <version>3.6.0.201611221246</version>
+      <version>3.6.1.201702161629</version>
+      <version>3.7.0.201709051305</version>
+      <version>3.7.1.201801261721</version>
+      <version>3.8.0.201809251213</version>
+      <version>3.8.1.201903111536</version>
+    </versions>
+    <lastUpdated>20190418040146</lastUpdated>
+  </versioning>
+</metadata>

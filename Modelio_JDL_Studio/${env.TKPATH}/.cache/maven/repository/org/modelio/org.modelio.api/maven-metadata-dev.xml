@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.modelio</groupId>
+  <artifactId>org.modelio.api</artifactId>
+  <versioning>
+    <latest>3.3.0</latest>
+    <release>3.3.0</release>
+    <versions>
+      <version>3.3.0</version>
+    </versions>
+    <lastUpdated>20160331145406</lastUpdated>
+  </versioning>
+</metadata>

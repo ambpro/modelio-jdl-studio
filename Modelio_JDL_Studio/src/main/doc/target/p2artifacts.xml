@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='modelio_jdl_studio-doc' version='1.0.0'>
+    <properties size='5'>
+      <property name='artifact.size' value='2359'/>
+      <property name='download.size' value='2359'/>
+      <property name='maven-groupId' value='org.modelio'/>
+      <property name='maven-artifactId' value='modelio_jdl_studio-doc'/>
+      <property name='maven-version' value='1.0.00'/>
+    </properties>
+  </artifact>
+</artifacts>

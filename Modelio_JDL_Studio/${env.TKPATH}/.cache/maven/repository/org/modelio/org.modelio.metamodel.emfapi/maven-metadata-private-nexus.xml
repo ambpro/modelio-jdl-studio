@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.modelio</groupId>
+  <artifactId>org.modelio.metamodel.emfapi</artifactId>
+  <versioning>
+    <latest>3.8.1.201902151006</latest>
+    <release>3.8.1.201902151006</release>
+    <versions>
+      <version>1.0.0.201306211739</version>
+      <version>1.0.0.201311140800</version>
+      <version>1.0.0.201402210032</version>
+      <version>1.0.0.201405191225</version>
+      <version>3.2.1</version>
+      <version>3.3.0</version>
+      <version>3.4.0.14051-1439</version>
+      <version>3.4.1.16085-1439</version>
+      <version>3.5.0.201604110751</version>
+      <version>3.5.0.201605090731</version>
+      <version>3.6.0.201611181602</version>
+      <version>3.6.1.201702101500</version>
+      <version>3.7.0.201709291308</version>
+      <version>3.7.1.201803071023</version>
+      <version>3.8.0.201809251213</version>
+      <version>3.8.1.201902151006</version>
+    </versions>
+    <lastUpdated>20190418040139</lastUpdated>
+  </versioning>
+</metadata>

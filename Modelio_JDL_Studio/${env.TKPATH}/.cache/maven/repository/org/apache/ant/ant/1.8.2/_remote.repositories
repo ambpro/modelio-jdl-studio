@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 15:29:39 CEST 2019
+ant-1.8.2.pom>private-nexus=
+ant-1.8.2.jar>private-nexus=

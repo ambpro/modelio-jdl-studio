@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.modelio</groupId>
+	<artifactId>MDAKit</artifactId>
+	<version>4.0.0.00</version>
+	<packaging>pom</packaging>
+	<description>Modelio 4.0.00</description>
+	
+	<properties>
+		<ModelioVersion>[4.0.0,4.0.1)</ModelioVersion>
+	</properties>
+
+	<dependencies>
+		<!-- Modelio API -->
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>javadesigner</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.api</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.core.utils</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.core.kernel</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.core.project</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.core.project.data</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.ui</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+
+		<!-- EMF API/IMPL -->
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.metamodel.emfapi</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+
+		<!-- BPMN API/IMPL -->
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.bpmn.metamodel.api</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+
+		<!-- Archimate API/IMPL -->
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.modelio.archimate.metamodel.api</artifactId>
+			<version>${ModelioVersion}</version>
+		</dependency>
+
+		<!-- External libraries -->
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.draw2d</artifactId>
+			<version>3.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.gef</artifactId>
+			<version>3.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.core.commands</artifactId>
+			<version>3.9.300.v20190215-1957</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.equinox.common</artifactId>
+			<version>3.10.300.v20190218-2100</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.jface</artifactId>
+			<version>3.15.100.v20190222-1334</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.swt</artifactId>
+			<version>3.110.0.v20190305-0602</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+			<version>3.110.0.v20190305-0602</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.ui.workbench</artifactId>
+			<version>3.113.0.v20190219-1432</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.emf.common</artifactId>
+			<version>2.15.0.v20181220-0846</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.emf.ecore</artifactId>
+			<version>2.17.0.v20190116-0940</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.core.runtime</artifactId>
+			<version>3.15.200.v20190301-1641</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.osgi</artifactId>
+			<version>3.13.300.v20190218-1622</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelio</groupId>
+			<artifactId>org.eclipse.ui.forms</artifactId>
+			<version>3.7.500.v20190216-1545</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+
+</project>

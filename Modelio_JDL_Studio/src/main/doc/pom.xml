@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>org.modelio</groupId>
+  <artifactId>modelio_jdl_studio-doc</artifactId>
+  <version>1.0.00</version>
+  <packaging>eclipse-plugin</packaging>
+  
+  <properties>
+      <tycho-version>0.22.0</tycho-version>
+      <tycho-groupid>org.eclipse.tycho</tycho-groupid>
+  </properties>
+  
+  <repositories>
+      <repository>
+          <id>luna</id>
+          <layout>p2</layout>
+          <url>http://download.eclipse.org/eclipse/updates/4.4</url>
+      </repository>
+  </repositories>
+  
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>${tycho-groupid}</groupId>
+              <artifactId>tycho-maven-plugin</artifactId>
+              <version>${tycho-version}</version>
+              <extensions>true</extensions>
+              <configuration>
+                  <resolver>p2</resolver>
+              </configuration>
+          </plugin>
+          <plugin>
+              <groupId>${tycho-groupid}</groupId>
+              <artifactId>tycho-packaging-plugin</artifactId>
+              <version>${tycho-version}</version>
+              <configuration>
+                  <strictVersions>false</strictVersions>
+                  <archive>
+                      <addMavenDescriptor>false</addMavenDescriptor>
+                  </archive>
+              </configuration>
+          </plugin>
+      </plugins>
+  </build>
+</project>

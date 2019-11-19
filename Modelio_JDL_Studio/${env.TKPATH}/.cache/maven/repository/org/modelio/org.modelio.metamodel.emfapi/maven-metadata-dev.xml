@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.modelio</groupId>
+  <artifactId>org.modelio.metamodel.emfapi</artifactId>
+  <versioning>
+    <latest>3.2.1</latest>
+    <release>3.2.1</release>
+    <versions>
+      <version>3.2.1</version>
+    </versions>
+    <lastUpdated>20150115151232</lastUpdated>
+  </versioning>
+</metadata>

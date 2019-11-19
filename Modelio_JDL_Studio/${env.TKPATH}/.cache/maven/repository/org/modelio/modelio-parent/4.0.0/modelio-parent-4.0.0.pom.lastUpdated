@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 15:29:31 CEST 2019
+http\://minotaure\:8081/nexus/content/repositories/release-builds-wyrm/.lastUpdated=1571837371139
+http\://minotaure\:8081/nexus/content/groups/public-repository/.lastUpdated=1571837371128
+http\://minotaure\:8081/nexus/content/repositories/dev/.error=
+http\://minotaure\:8081/nexus/content/repositories/dev/.lastUpdated=1571837371131
+http\://minotaure\:8081/nexus/content/groups/public-repository/.error=

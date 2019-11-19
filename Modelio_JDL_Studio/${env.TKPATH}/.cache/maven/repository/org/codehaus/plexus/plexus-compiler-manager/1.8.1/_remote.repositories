@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 15:29:36 CEST 2019
+plexus-compiler-manager-1.8.1.jar>private-nexus=
+plexus-compiler-manager-1.8.1.pom>private-nexus=

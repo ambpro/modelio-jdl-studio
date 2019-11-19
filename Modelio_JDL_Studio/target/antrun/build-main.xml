@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="/home/aboudeffa/modelio/workspace/ModelioJDLStudio/Modelio_JDL_Studio/target/Modelio_JDL_Studio_1.0.00.zip" tofile="/home/aboudeffa/modelio/workspace/ModelioJDLStudio/Modelio_JDL_Studio/target/Modelio_JDL_Studio_1.0.00.jmdac"/>
+</target>
+</project>

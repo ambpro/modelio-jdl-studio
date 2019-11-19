@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: modelio_jdl_studio-doc;singleton=true
+Bundle-Version: 1.0.0
+Bundle-Name: Modelio_JDL_Studio documentation
+Bundle-Vendor: 
+
