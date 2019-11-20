@@ -1,5 +1,4 @@
 # modelio-jdl-studio
-modelio-jdl-studio is a Modelio module created by Softeam/Modeliosoft that allows to design a JDL data model diagram and then to generate from it a JDL file.
 
 **Modelio JDL Studio** is a [Modelio](https://www.modelio.org/) module created by Softeam/Modeliosoft that allows Modelio users to design a JDL data model diagram and then to generate from it a JDL file ([JHipster](https://www.jhipster.tech/) Domain Language) for entities and their relationships.
 
